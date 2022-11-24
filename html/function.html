@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <script type="text/javascript">
+            function A(c,d){
+                var c=document.getElementById("first").value;
+                var d=document.getElementById("second").value;
+                //window.alert("hello this is working addition of this value  "+(vard= parseInt(c)+parseInt(d)));
+                var e=(parseInt(c)+parseInt(d));
+                return  e;
+                //document.write("<h1>this value :  "+(vard)+"</h1>");
+            }
+            function bn(){
+                var result=A();
+                document.getElementById("result").value=result;
+            }
+           
+        </script>
+    </head>
+    <body>
+        <from>
+            <input type="text" name="first" id="first">
+            <input type="text" name="second" id="second">
+        </from>
+        <input type="button" value="click" onclick="bn()">
+        <br/><br/>
+        <input type="text" name="result" id="result">
+    
+    </body>
+</html>
