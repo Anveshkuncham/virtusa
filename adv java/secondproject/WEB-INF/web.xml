@@ -1,0 +1,31 @@
+<web-app>
+    <servlet>
+    <servlet-name>hlo</servlet-name>
+    <servlet-class>Sayhello</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+    <servlet-name>hlo</servlet-name>
+    <url-pattern>/hello</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+    <servlet-name>hai</servlet-name>
+    <servlet-class>Sayhai</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+    <servlet-name>hai</servlet-name>
+    <url-pattern>/hai</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+    <servlet-name>wel</servlet-name>
+    <servlet-class>Saywelcome</servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+    <servlet-name>wel</servlet-name>
+    <url-pattern>/welcome</url-pattern>
+    </servlet-mapping>
+</web-app>
